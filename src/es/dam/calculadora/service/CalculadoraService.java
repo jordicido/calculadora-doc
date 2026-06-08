@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
 public class CalculadoraService {
 
     private final List<Operacion> historial;
@@ -15,11 +16,13 @@ public class CalculadoraService {
         this.historial = new ArrayList<>();
     }
 
+
     public double sumar(double numero1, double numero2) {
         double resultado = numero1 + numero2;
         guardarOperacion("Suma", numero1 + " + " + numero2, resultado);
         return resultado;
     }
+
 
     public double restar(double numero1, double numero2) {
         double resultado = numero1 - numero2;
