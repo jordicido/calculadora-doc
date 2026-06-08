@@ -23,3 +23,11 @@ git clone https://github.com/jordicido/calculadora-doc
 2. Antes de poder ejecutar el proyecto, asegúrate de tener instalado [JDK](https://www.oracle.com/es/java/technologies/javase/jdk11-archive-downloads.html)
 3. Abrir el proyecto con tu IDE favorito
 4. Ejecutar el archivo Main.java para empezar a utilizar la calculadora de terminal
+
+## Arquitectura del proyecto
+
+Este proyecto tiene una arquitectura dividida en tres capas:
+
+- **Modelo**: Capa que se encarga de la representación de los datos en la aplicación.
+- **Vista**: Capa que se encarga de la entrada y salida de los datos.
+- **Controlador**: Capa que se encarga de toda la lógica del programa.
